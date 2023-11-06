@@ -50,7 +50,7 @@ const aboutStyles = makeStyles({ uniqId: 'about' })(theme => ({
   reward: {
     flex: 1,
     display: 'flex',
-    justifyContent: 'space-between',
+    justifyContent: 'space-evenly',
     [theme.breakpoints.up('md')]: {
       padding: theme.spacing(0.5, 7, 0, 0),
     },
@@ -95,7 +95,8 @@ const aboutStyles = makeStyles({ uniqId: 'about' })(theme => ({
   },
   photo: {
     position: 'relative',
-    marginTop: -100,
+    marginTop: -130,
+    marginBottom: 20,
     background: theme.palette.common.white,
     width: 320,
     height: 300,
