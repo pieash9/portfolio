@@ -79,7 +79,7 @@ function Footer() {
                   <Typography className={text.paragraph}>
                     {t('maskulino-landing.footer_hello')}
                     <br />
-                    johndoe.skype
+                    pieash9.skype
                   </Typography>
                 </div>
               </div>

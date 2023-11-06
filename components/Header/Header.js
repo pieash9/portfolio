@@ -208,7 +208,7 @@ function Header(props) {
                       <Typography className={text.paragraph}>
                         {t('maskulino-landing.footer_contact')}
                         <br />
-                        +88016 2700 1665
+                        +880 16270 01665
                       </Typography>
                       <Divider className={classes.divider} />
                       <Typography className={text.paragraph}>

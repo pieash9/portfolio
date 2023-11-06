@@ -95,10 +95,10 @@ const aboutStyles = makeStyles({ uniqId: 'about' })(theme => ({
   },
   photo: {
     position: 'relative',
-    marginTop: -140,
+    marginTop: -100,
     background: theme.palette.common.white,
-    width: 270,
-    height: 335,
+    width: 320,
+    height: 300,
     zIndex: 1,
     [theme.breakpoints.down('md')]: {
       width: 200,

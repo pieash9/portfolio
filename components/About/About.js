@@ -7,6 +7,7 @@ import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 import { useTranslation } from 'next-i18next';
+import Link from 'next/link';
 import brand from '~/public/text/brand';
 import { useText } from '~/theme/common';
 import useStyles from './about-style';
@@ -52,18 +53,26 @@ function About() {
               {!isDesktop && (
                 <Fragment>
                   <div className={classes.socmed}>
-                    <IconButton aria-label="Delete" className={classes.margin} size="small">
-                      <i className="ion-logo-facebook" />
-                    </IconButton>
-                    <IconButton aria-label="Delete" className={classes.margin} size="small">
-                      <i className="ion-logo-twitter" />
-                    </IconButton>
-                    <IconButton aria-label="Delete" className={classes.margin} size="small">
-                      <i className="ion-logo-google" />
-                    </IconButton>
-                    <IconButton aria-label="Delete" className={classes.margin} size="small">
-                      <i className="ion-logo-linkedin" />
-                    </IconButton>
+                    <Link href="https://www.facebook.com/cloud.pieash/" target="_blank">
+                      <IconButton aria-label="Delete" className={classes.margin} size="small">
+                        <i className="ion-logo-facebook" />
+                      </IconButton>
+                    </Link>
+                    <Link href="https://www.instagram.com/cloud_pieash/" target="_blank">
+                      <IconButton aria-label="Delete" className={classes.margin} size="small">
+                        <i className="ion-logo-instagram" />
+                      </IconButton>
+                    </Link>
+                    <Link href="https://twitter.com/Cloud_Pieash" target="_blank">
+                      <IconButton aria-label="Delete" className={classes.margin} size="small">
+                        <i className="ion-logo-twitter" />
+                      </IconButton>
+                    </Link>
+                    <Link href="https://www.linkedin.com/in/md-pieash-ahmed-7a6830204/" target="_blank">
+                      <IconButton aria-label="Delete" className={classes.margin} size="small">
+                        <i className="ion-logo-linkedin" />
+                      </IconButton>
+                    </Link>
                   </div>
                   <Typography variant="h5">
                     {t('maskulino-landing.banner_desc')}
