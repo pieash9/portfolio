@@ -75,7 +75,7 @@ function BannerNav(props) {
                 <Typography variant="h2" className={text.title}>
                   <span>
                     {t('maskulino-landing.banner_me')}
-                    &nbsp;John,&nbsp;
+                    &nbsp;Md. Pieash Ahmed,&nbsp;
                     {brand.maskulino.title}
                   </span>
                 </Typography>
