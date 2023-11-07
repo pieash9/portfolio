@@ -10,7 +10,7 @@ import IconButton from '@mui/material/IconButton';
 import Divider from '@mui/material/Divider';
 import { useTranslation } from 'next-i18next';
 import Link from 'next/link';
-import logo from '~/public/images/maskulino-logo.svg';
+import logo from '~/public/images/main.png';
 import brand from '~/public/text/brand';
 import { useText } from '~/theme/common';
 import useStyles from './footer-style';
@@ -79,7 +79,7 @@ function Footer() {
                   <Typography className={text.paragraph}>
                     {t('maskulino-landing.footer_hello')}
                     <br />
-                    pieash9.skype
+                    pieash9@gmail.com
                   </Typography>
                 </div>
               </div>
