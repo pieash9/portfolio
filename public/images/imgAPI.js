@@ -13,6 +13,8 @@ const imgAPI = {
     '/images/avatars/pp_boy5.svg'
   ],
   photo: [
+    '/images/blogs/1.jpg',
+    '/images/blogs/2.jpeg',
     'https://via.placeholder.com/675x900/e1ad92/ffffff',
     'https://via.placeholder.com/967x725/ea6d6d/ffffff',
     'https://via.placeholder.com/1280x849/ea6db7/ffffff',
