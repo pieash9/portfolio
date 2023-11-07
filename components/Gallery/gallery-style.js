@@ -8,7 +8,6 @@ const galleryStyles = makeStyles({ uniqId: 'gallery' })((theme, _params, classes
   selected: {},
   filter: {
     position: 'relative',
-    zIndex: 20,
     display: 'flex',
     overflow: 'auto',
     width: '100%',

@@ -6,7 +6,12 @@ import Container from '@mui/material/Container';
 import ScrollAnimation from 'react-scroll-animation-wrapper';
 import LinearProgress from '@mui/material/LinearProgress';
 import { FaReact } from 'react-icons/fa';
-import { BiLogoGraphql, BiLogoJavascript, BiLogoRedux, BiLogoTypescript } from 'react-icons/bi';
+import {
+  BiLogoGraphql,
+  BiLogoJavascript,
+  BiLogoRedux,
+  BiLogoTypescript
+} from 'react-icons/bi';
 import Typography from '@mui/material/Typography';
 import { useTranslation } from 'next-i18next';
 import { useText } from '~/theme/common';
