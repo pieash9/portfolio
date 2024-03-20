@@ -36,6 +36,7 @@ const imgAPI = {
     '/images/projects/2.png',
     '/images/projects/3.png',
     '/images/projects/4.png',
+    '/images/projects/5.png',
     'https://via.placeholder.com/1300x500/143a77/FFFFFF',
     'https://via.placeholder.com/1300x500/222f38/FFFFFF',
     'https://via.placeholder.com/1300x500/191b1f/FFFFFF',

@@ -57,6 +57,20 @@ const portfolio = [
     category: 'react'
   },
   {
+    img: imgAPI.maskulino[5],
+    title: 'FileDrive',
+    description:
+      'FileDev is a file management system that allows users to upload, delete, download files, and restore deleted files. Deleted files are automatically marked for deletion and removed permanently after three days. Additionally, users can create organizations, add members, and assign roles (admin or member). Currently, the system supports image file types: PNG, PDF, and CSV.',
+    technology:
+      'Next.js, TypeScript, Mongoose, Tailwind CSS, Shadcn, Convex, clerk auth',
+    position: 'Full-stack Developer',
+    gitClientUrl: 'https://github.com/pieash9/file-drive',
+    gitServerUrl: 'https://github.com/pieash9/file-drive',
+    previewUrl: 'https://file-drive9.netlify.app',
+    size: 'long',
+    category: 'next'
+  },
+  {
     img: imgAPI.maskulino[4],
     title: 'HatMart (Team project)',
     description:
@@ -69,42 +83,7 @@ const portfolio = [
     previewUrl: 'https://hat-mart-client.vercel.app/',
     size: 'long',
     category: 'next'
-  },
-  // {
-  //   img: imgAPI.maskulino[10],
-  //   title: 'Aenean facilisis vitae purus',
-  //   link: 'linkofthisitem.com',
-  //   size: 'short',
-  //   category: 'cat2'
-  // },
-  // {
-  //   img: imgAPI.maskulino[11],
-  //   title: 'Aenean facilisis vitae purus',
-  //   link: 'linkofthisitem.com',
-  //   size: 'short',
-  //   category: 'cat3'
-  // },
-  // {
-  //   img: imgAPI.maskulino[12],
-  //   title: 'Aenean facilisis vitae purus',
-  //   link: 'linkofthisitem.com',
-  //   size: 'short',
-  //   category: 'cat1'
-  // },
-  // {
-  //   img: imgAPI.maskulino[14],
-  //   title: 'Aenean facilisis vitae purus',
-  //   link: 'linkofthisitem.com',
-  //   size: 'short',
-  //   category: 'cat2'
-  // },
-  // {
-  //   img: imgAPI.maskulino[13],
-  //   title: 'Aenean facilisis vitae purus',
-  //   link: 'linkofthisitem.com',
-  //   size: 'long',
-  //   category: 'cat2'
-  // },
+  }
 ];
 
 function Gallery() {

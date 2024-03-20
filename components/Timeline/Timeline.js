@@ -62,9 +62,9 @@ function Timeline() {
                     >
                       <div>
                         <Typography variant="h3" gutterBottom className={text.subtitle2}>ReactJS Developer </Typography>
-                        <Typography variant="body1" style={{ fontWeight: 'bold' }} gutterBottom> At Nifty IT Solution Ltd</Typography>
-                        <Typography gutterBottom>Internship</Typography>
-                        <Typography className={classes.time}>September, 2023 - Present</Typography>
+                        <Typography variant="body1" style={{ fontWeight: 'bold' }} gutterBottom> At Nifty IT Solution Ltd (Internship)</Typography>
+                        <Typography gutterBottom>Shakhertek Main Rd, Mohammadpur, Dhaka 1207 , Bangladesh</Typography>
+                        <Typography className={classes.time}>September, 2023 - November, 2023</Typography>
                       </div>
                     </ScrollAnimation>
                   </li>
@@ -136,7 +136,7 @@ function Timeline() {
                       </div>
                       <LinearProgress
                         variant="determinate"
-                        value={play ? 80 : 0}
+                        value={play ? 90 : 0}
                         classes={{
                           root: classes.progressBg,
                           bar: classes.bar
@@ -150,7 +150,7 @@ function Timeline() {
                       </div>
                       <LinearProgress
                         variant="determinate"
-                        value={play ? 70 : 0}
+                        value={play ? 80 : 0}
                         classes={{
                           root: classes.progressBg,
                           bar: classes.bar
@@ -164,7 +164,7 @@ function Timeline() {
                       </div>
                       <LinearProgress
                         variant="determinate"
-                        value={play ? 80 : 0}
+                        value={play ? 85 : 0}
                         classes={{
                           root: classes.progressBg,
                           bar: classes.bar
@@ -174,11 +174,11 @@ function Timeline() {
                     <li>
                       <div className={classes.textIcon}>
                         <BiLogoGraphql size={26} />
-                        <Typography variant="h6" className={text.subtitle2}>GraphQL</Typography>
+                        <Typography variant="h6" className={text.subtitle2}>Prisma</Typography>
                       </div>
                       <LinearProgress
                         variant="determinate"
-                        value={play ? 70 : 0}
+                        value={play ? 80 : 0}
                         classes={{
                           root: classes.progressBg,
                           bar: classes.bar
@@ -192,7 +192,7 @@ function Timeline() {
                       </div>
                       <LinearProgress
                         variant="determinate"
-                        value={play ? 75 : 0}
+                        value={play ? 85 : 0}
                         classes={{
                           root: classes.progressBg,
                           bar: classes.bar
